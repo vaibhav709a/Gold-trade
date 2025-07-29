@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from indicators import indicators
+from indicators.indicators import add_indicators
 from signals.signal_logic import safe_trade_signal
 from model.train_model import load_model
 from data.get_data import get_xauusd_data
