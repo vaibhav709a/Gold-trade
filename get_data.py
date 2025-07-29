@@ -7,7 +7,7 @@ def get_xauusd_data():
     params = {
         "symbol": "XAU/USD",
         "interval": "15min",
-        "apikey": "YOUR_API_KEY",
+        "apikey": "806dd29a09244737ae6cd1a305061557",
         "outputsize": 500
     }
     r = requests.get(url, params=params)
